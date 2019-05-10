@@ -43,6 +43,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <skip>false</skip>
+                    <workingDirectory>${basedir}</workingDirectory>
                 </configuration>
             </plugin>
         </plugins>
